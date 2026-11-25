@@ -1,0 +1,164 @@
+V "GNAT Lib v15"
+M P W=b
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLICIT_LOOPS
+
+U registros%b		1.5.registros.adb	05206c06 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+Z ada.text_io.enumeration_io%s
+Z ada.text_io.generic_aux%s  a-tigeau.adb	a-tigeau.ali
+Z ada.text_io.integer_aux%s
+Z ada.text_io.integer_io%s
+W system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_6%s	s-conca6.adb		s-conca6.ali
+Z system.img_biu%s	s-imgbiu.ads		s-imgbiu.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.img_llb%s	s-imgllb.ads		s-imgllb.ali
+Z system.img_lli%s	s-imglli.ads		s-imglli.ali
+Z system.img_lllb%s	s-imglllb.ads		s-imglllb.ali
+Z system.img_llli%s	s-imgllli.ads		s-imgllli.ali
+Z system.img_lllw%s	s-imglllw.ads		s-imglllw.ali
+Z system.img_llw%s	s-imgllw.ads		s-imgllw.ali
+Z system.img_wiu%s	s-imgwiu.ads		s-imgwiu.ali
+Z system.val_enum_8%s	s-vaenu8.ads		s-vaenu8.ali
+Z system.val_int%s	s-valint.ads		s-valint.ali
+Z system.val_lli%s	s-vallli.ads		s-vallli.ali
+Z system.val_llli%s	s-valllli.ads		s-valllli.ali
+
+D ada.ads		20260129083938 76789da1 ada%s
+D a-except.ads		20260129083938 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20260129083938 40018c65 ada.io_exceptions%s
+D a-stream.ads		20260129083938 17477cbd ada.streams%s
+D a-string.ads		20260129083938 90ac6797 ada.strings%s
+D a-sttebu.ads		20260129083938 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20260129083938 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20260129083938 fbca0ad5 ada.tags%s
+D a-textio.ads		20260129083938 34ef47de ada.text_io%s
+D a-tienau.ads		20260129083938 6a9c157b ada.text_io.enumeration_aux%s
+D a-tienio.ads		20260129083938 77610959 ada.text_io.enumeration_io%s
+D a-tienio.adb		20260129083938 c9e6b5af ada.text_io.enumeration_io%b
+D a-tigeau.ads		20260129083938 e643cdf3 ada.text_io.generic_aux%s
+D a-tiinau.ads		20260129083938 3ca4fcff ada.text_io.integer_aux%s
+D a-tiinau.adb		20260129083938 199a0c7a ada.text_io.integer_aux%b
+D a-tiinio.ads		20260129083938 76699c8f ada.text_io.integer_io%s
+D a-tiinio.adb		20260129083938 b79731f4 ada.text_io.integer_io%b
+D a-unccon.ads		20260129083938 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20260129083938 9111f9c1 interfaces%s
+D i-cstrea.ads		20260129083938 ffd01b9d interfaces.c_streams%s
+D 1.5.registros.adb	20260211122722 31cf2bd8 registros%b
+D system.ads		20260129083938 a869df9e system%s
+D s-conca2.ads		20260129083938 b5fb73f7 system.concat_2%s
+D s-conca6.ads		20260129083938 8252f108 system.concat_6%s
+D s-crtl.ads		20260129083938 beb39b9e system.crtl%s
+D s-exctab.ads		20260129083938 91bef6ef system.exception_table%s
+D s-ficobl.ads		20260129083938 dc5161d4 system.file_control_block%s
+D s-imageb.ads		20260129083938 3953e0e6 system.image_b%s
+D s-imagei.ads		20260129083938 5e131ce0 system.image_i%s
+D s-imagew.ads		20260129083938 9d2dd267 system.image_w%s
+D s-imgbiu.ads		20260129083938 0a8e1c41 system.img_biu%s
+D s-imgint.ads		20260129083938 67e4edfb system.img_int%s
+D s-imgllb.ads		20260129083938 47d0db9f system.img_llb%s
+D s-imglli.ads		20260129083938 d88f4f3b system.img_lli%s
+D s-imglllb.ads		20260129083938 30212eed system.img_lllb%s
+D s-imgllli.ads		20260129083938 404e72c5 system.img_llli%s
+D s-imglllw.ads		20260129083938 9e2b0560 system.img_lllw%s
+D s-imgllw.ads		20260129083938 bf9c9c15 system.img_llw%s
+D s-imgwiu.ads		20260129083938 912a95f2 system.img_wiu%s
+D s-parame.ads		20260129083938 3597fc11 system.parameters%s
+D s-putima.ads		20260129083938 17291fe4 system.put_images%s
+D s-secsta.ads		20260129083938 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260129083938 5d88fdea system.soft_links%s
+D s-stache.ads		20260129083938 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20260129083938 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260129083938 ccded4e8 system.storage_elements%s
+D s-traent.ads		20260129083938 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260129083938 fa2a7f59 system.unsigned_types%s
+D s-vaenu8.ads		20260129083938 c24e5e75 system.val_enum_8%s
+D s-valint.ads		20260129083938 8bab724f system.val_int%s
+D s-vallli.ads		20260129083938 353103fd system.val_lli%s
+D s-valllli.ads		20260129083938 fb5526e1 system.val_llli%s
+D s-vallllu.ads		20260129083938 34470a29 system.val_lllu%s
+D s-valllu.ads		20260129083938 4134fa35 system.val_llu%s
+D s-valspe.ads		20260129083938 f810d31c system.val_spec%s
+D s-valuns.ads		20260129083938 f7ddb71d system.val_uns%s
+D s-valuei.ads		20260129083938 d9377ca5 system.value_i%s
+D s-vaispe.ads		20260129083938 8280550e system.value_i_spec%s
+D s-valuen.ads		20260129083938 5bd81154 system.value_n%s
+D s-valueu.ads		20260129083938 a38d32a6 system.value_u%s
+D s-vauspe.ads		20260129083938 89269ba5 system.value_u_spec%s
+D s-vs_int.ads		20260129083938 06b6b724 system.vs_int%s
+D s-vs_lli.ads		20260129083938 b945cf7d system.vs_lli%s
+D s-vsllli.ads		20260129083938 3a5ba700 system.vs_llli%s
+D s-vslllu.ads		20260129083938 678200a0 system.vs_lllu%s
+D s-vs_llu.ads		20260129083938 8f3536c5 system.vs_llu%s
+D s-vs_uns.ads		20260129083938 e7f47a27 system.vs_uns%s
+D s-wchcon.ads		20260129083938 d9032363 system.wch_con%s
+G a e
+G c Z b b [registros standard 4 11 none]
+X 1 ada.ads
+18K9*Ada 22e8 21|1r6 2r5 5r27 13r27 14r28 15r27
+X 9 a-textio.ads
+58K13*Text_IO 785e16 21|1w10 2r9 5r31 13r31 14r32 15r31
+284U14*New_Line 21|39s5 45s5 51s5 57s5 63s5 69s5
+362U14*Set_Col 21|36s5 42s5 48s5 54s5 60s5 66s5 70s5 72s5
+515U14*Put 21|34s5 37s5 40s5 43s5 46s5 49s5 52s5 55s5 58s5 61s5 64s5 67s5
+. 73s5
+565U14*Put_Line 21|71s5
+X 11 a-tienio.ads
+26k21*Enumeration_IO 85e31 21|13r39
+38U14 Get 21|59s12[13]
+58U14 Put 21|62s12[13]
+X 16 a-tiinio.ads
+46k21*Integer_IO 116e27 21|5r39 14r40 15r39
+62U14 Get 21|35s12[5] 41s12[5] 47s12[5] 53s12[15] 65s13[14]
+85U14 Put 21|38s12[5] 44s12[5] 50s12[5] 56s12[15] 68s13[14]
+X 21 1.5.registros.adb
+4U11*Registros 4b11 76l5 76t14
+5K13 ES_pos[16|46] 35r5 38r5 41r5 44r5 47r5 50r5
+8I10 anno_t<short_integer> 14r51 20r16 71r143
+9E10 meses_t 9e122 13r54 19r15 71r93
+9n22 enero{9E10}
+9n29 febrero{9E10}
+9n38 marzo{9E10}
+9n45 abril{9E10}
+9n52 mayo{9E10}
+9n58 junio{9E10}
+9n65 julio{9E10}
+9n72 agosto{9E10}
+9n80 septiembre{9E10}
+9n92 octubre{9E10}
+9n101 noviembre{9E10}
+9n112 diciembre{9E10}
+10I10 dia_t<short_short_integer> 15r50 18r15 71r45
+13K13 ES_mes[11|26] 59r5 62r5
+14K13 ES_anno[16|46] 65r5 68r5
+15K13 ES_dia[16|46] 53r5 56r5
+17R10 fecha_t 21e15 27r22
+18i9 dia{10I10} 53m35 56r35 71r76
+19e9 mes{9E10} 59m35 62r35 71r126
+20i9 anno{8I10} 65m36 68r36 71r175
+23R10 ficha_t 28e15 31r15
+24i9 canastas2{positive} 35m24 38r24 73r79
+25i9 triples{positive} 41m24 44r24 73r61
+26i9 libres{positive} 47m24 50r24 73r99
+27r9 nacimiento{17R10} 53r24 56r24 59r24 62r24 65r25 68r25 71r65 71r115 71r164
+31r5 jugador{23R10} 35m16 35r16 38r16 41m16 41r16 44r16 47m16 47r16 50r16
+. 53m16 53r16 56r16 59m16 59r16 62r16 65m17 65r17 68r17 71r57 71r107 71r156
+. 73r53 73r71 73r91
+
