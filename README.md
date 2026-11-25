@@ -5,7 +5,7 @@ Academic exercises and laboratory assignments developed in **Ada** as part of th
 
 This repository contains practical work covering fundamental programming concepts, data structures, concurrent programming and synchronization mechanisms using the Ada programming language.
 
-## 📚 Contents
+## Contents
 
 The repository is organized into laboratory exercises, practical assignments and additional exercises.
 
@@ -27,7 +27,7 @@ The repository is organized into laboratory exercises, practical assignments and
 - **Development Environment:** Visual Studio Code
 - **Version Control:** Git and GitHub
 
-## 🧠 Concepts and Skills
+## Concepts and Skills
 
 The exercises cover several topics related to software development and real-time systems:
 
@@ -41,7 +41,7 @@ The exercises cover several topics related to software development and real-time
 - Protected objects and shared resources.
 - Classic concurrency problems.
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### Requirements
 
@@ -62,7 +62,7 @@ Replace `filename.adb` with the corresponding source file.
 
 The compiler will generate the executable and other compilation files.
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 Ada-Real-Time-Systems/
@@ -92,7 +92,7 @@ Ada-Real-Time-Systems/
 └── ZZZ/
 ```
 
-## 🎓 Academic Context
+## Academic Context
 
 Developed as part of the **Real-Time Systems** course in the Computer Engineering degree at the University of Alcalá (UAH).
 
